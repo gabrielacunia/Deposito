@@ -1,0 +1,29 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package a_mayusculaminuscula;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Gabriel
+ */
+public class A_MayusculaMinuscula {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner leer = new Scanner(System.in);
+        System.out.println("Ingrese una frase:");
+        String frase = leer.nextLine();
+        String fraseMin = frase.toLowerCase();
+        String fraseMay = frase.toUpperCase();
+        System.out.println("La frase en minuscula es: " + fraseMin);
+        System.out.println("La frase en mayuscula es: " + fraseMay);
+
+}    
+}
