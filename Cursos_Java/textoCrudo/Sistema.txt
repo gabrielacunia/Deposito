@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Sistema{
+ public static void main(String args []){
+  System.out.println("Bienvenido al sistema vacacional de CocaCola Company);
+   Scanner in = new Scanner (System.in);
+    String nombre = "";
+
+     int Clase=0, Antiguedad=0;
+
+ System.out.pritln("Cual es su nombre?");
+  nombre= in.nextLine();
+   System.out.println("Ingrese su clave:");
+    Clase= in.nextLine();
+
+      
+}
+}

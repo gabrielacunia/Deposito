@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Juego">
+  <ClassDiagramComponents>
+    <Class name="Juego" package="objetos" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="llenarJuego" returnType="void" visibility="public">
+          <Argument type="ArrayList" name="jugadores"/>
+          <Argument type="Revolver" name="r"/>
+        </Method>
+        <Method name="ronda" returnType="void" visibility="public">
+          <Argument type="ArrayList" name="jug"/>
+          <Argument type="Revolver" name="r"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

@@ -1,0 +1,101 @@
+APUNTES JAVA
+
+ENCABEZADO POR CLASE
+
+public class Menu {
+public static void main (String args[]){
+
+
+DECLARACION DE VARIABLES
+numeros enteros > int nombrevariable=0; > se inicia en 0 como valor por defecto
+cadena de caracteres  > String nombrecadena= "";
+
+USOS IF/ELSE
+
+if (condicion){accion
+} else {accion}             >> se pueden encadenar uno despues del otro, o uno dentro del otro
+
+
+if (){
+if(){
+} else {}}
+else{}
+
+if (){} else if (){} else if {} else {}
+
+
+INTERACCION CON USUARIO
+
+herramienta Scanner (importada de java)
+....................
+import java.util Scanner;  >> importacion
+Scanner in = new Scanner (System.in); sintaxis en encabezado
+letras = in.nextLine();  >  introducir caracteres alfabeticos
+numeros enteros = in.nextInt  > introducir numeros enteros
+________________________________________________________________
+Relacionadores logicos
+
+&& > y o ademas
+== > exactamente el mismo valor
+= > asignar valor
+<>  > menor y mayor
+!=  > no es igual o distinto
+<=  =>  > menor o igual y mayor o igual
+variable.equals(variable2) > compara si las variables son iguales
+variable.equalsIgnoreCase(variable2)  >  compara ignorando mayusculas y minusculas
+___________________________________________________________
+USOS DEL SWITCH
+
+declaracion de variables
+declaracion de parametro
+
+switch (parametro)
+case parametro: (accion);
+case parametro: (accion);
+default: (accion)
+}
+_____________________________
+CICLOS
+
+WHILE
+int i = 1;
+  while (i < 10){
+  System.out.print(i + ", ");
+  i+=2;}
+
+FOR
+for (int i =1; i<5; i++){
+System.out.print(i + ", ");}
+
+DO-WHILE
+int i=1000;
+do{
+System.out.print(i + ", ");
+i-=200;
+}while(i>=0);
+_____________________________________
+LENGTH
+variable.length=variable2 > cuenta caracteres de variable e imprime en variable2
+variable[] >  variable.length  > mide la longitud del vector
+______________________________________________
+VECTORES
+int numeros []= new int[5];  >  declaracion de un vector de 5 espacios (0,1,2,3,4)
+numeros[0] = 5;
+numeros[1] = 220;
+numeros[2] = 8;
+numeros[3] = 458;
+numeros[4] = 22;      >> variables vectoriales
+
+MATRICES (SUCECION DE VECTORES)
+int numeros[] [] = new int [filas] [columnas];
+_________________________________________________
+
+INTERFAZ GRAFICA
+import.javax.swing.*;  >  importa utileria grafica
+public class Ventana extends JFrame  > sintaxis del encabezado
+variable1.setVisible(true);  >  hace visible la ventana, false invisible
+variable1.setLocationRelativeTo(0,0);  >  ubicacion de partida de la ventana
+variable1.setResizable(true);  >  la ventana se puede ampliar o reducir
+variable1.setBounds;   >  fijar coordenadas de impresion y tamano del objeto
+variable= new JLabel("");  >  imprime en pantalla
+
